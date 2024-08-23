@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: spring-boot-rabbitmq
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+rabbitmq:
+  queue:
+    name: queue_demo
+  exchange:
+    name: exchange_demo_2
+  routing:
+    key: routing_key_demo
