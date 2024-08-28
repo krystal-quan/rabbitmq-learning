@@ -10,7 +10,9 @@ spring:
 rabbitmq:
   queue:
     name: queue_demo
+    other_name: queue_demo_2
   exchange:
     name: exchange_demo_2
   routing:
     key: routing_key_demo
+    other_key: routing_key_demo_2
